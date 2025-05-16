@@ -1,0 +1,162 @@
+[
+  {
+    "company": "HDFC ERGO",
+    "cashlessGarages": 6800,
+    "claimSettlementRatio": 89,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2202,
+    "planUrl": "https://www.hdfcergo.com"
+  },
+  {
+    "company": "ICICI Lombard",
+    "cashlessGarages": 5200,
+    "claimSettlementRatio": 91,
+    "zeroDepClaims": "5 per year",
+    "startingPrice": 2250,
+    "planUrl": "https://www.icicilombard.com"
+  },
+  {
+    "company": "TATA AIG",
+    "cashlessGarages": 4500,
+    "claimSettlementRatio": 88,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2180,
+    "planUrl": "https://www.tataaig.com"
+  },
+  {
+    "company": "Bajaj Allianz",
+    "cashlessGarages": 4000,
+    "claimSettlementRatio": 90,
+    "zeroDepClaims": "3 per year",
+    "startingPrice": 2300,
+    "planUrl": "https://www.bajajallianz.com"
+  },
+  {
+    "company": "Reliance General",
+    "cashlessGarages": 3800,
+    "claimSettlementRatio": 85,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2100,
+    "planUrl": "https://www.reliancegeneral.co.in"
+  },
+  {
+    "company": "SBI General",
+    "cashlessGarages": 3600,
+    "claimSettlementRatio": 86,
+    "zeroDepClaims": "2 per year",
+    "startingPrice": 2150,
+    "planUrl": "https://www.sbigeneral.in"
+  },
+  {
+    "company": "Future Generali",
+    "cashlessGarages": 3400,
+    "claimSettlementRatio": 87,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2090,
+    "planUrl": "https://www.futuregenerali.in"
+  },
+  {
+    "company": "Digit Insurance",
+    "cashlessGarages": 3000,
+    "claimSettlementRatio": 89,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2020,
+    "planUrl": "https://www.godigit.com"
+  },
+  {
+    "company": "ACKO General",
+    "cashlessGarages": 3100,
+    "claimSettlementRatio": 92,
+    "zeroDepClaims": "5 per year",
+    "startingPrice": 1999,
+    "planUrl": "https://www.acko.com"
+  },
+  {
+    "company": "Edelweiss General",
+    "cashlessGarages": 2800,
+    "claimSettlementRatio": 84,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2010,
+    "planUrl": "https://www.edelweissinsurance.com"
+  },
+  {
+    "company": "Magma HDI",
+    "cashlessGarages": 2600,
+    "claimSettlementRatio": 83,
+    "zeroDepClaims": "3 per year",
+    "startingPrice": 2005,
+    "planUrl": "https://www.magmahdi.com"
+  },
+  {
+    "company": "Kotak General",
+    "cashlessGarages": 2400,
+    "claimSettlementRatio": 88,
+    "zeroDepClaims": "4 per year",
+    "startingPrice": 2145,
+    "planUrl": "https://www.kotakgeneralinsurance.com"
+  },
+  {
+    "company": "Universal Sompo",
+    "cashlessGarages": 2200,
+    "claimSettlementRatio": 82,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2080,
+    "planUrl": "https://www.universalsompo.com"
+  },
+  {
+    "company": "Oriental Insurance",
+    "cashlessGarages": 2100,
+    "claimSettlementRatio": 79,
+    "zeroDepClaims": "1 per year",
+    "startingPrice": 2130,
+    "planUrl": "https://www.orientalinsurance.org.in"
+  },
+  {
+    "company": "National Insurance",
+    "cashlessGarages": 2500,
+    "claimSettlementRatio": 81,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2055,
+    "planUrl": "https://nationalinsurance.nic.co.in"
+  },
+  {
+    "company": "New India Assurance",
+    "cashlessGarages": 2700,
+    "claimSettlementRatio": 80,
+    "zeroDepClaims": "2 per year",
+    "startingPrice": 2190,
+    "planUrl": "https://www.newindia.co.in"
+  },
+  {
+    "company": "IFFCO Tokio",
+    "cashlessGarages": 3300,
+    "claimSettlementRatio": 86,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2125,
+    "planUrl": "https://www.iffcotokio.co.in"
+  },
+  {
+    "company": "Royal Sundaram",
+    "cashlessGarages": 2900,
+    "claimSettlementRatio": 87,
+    "zeroDepClaims": "3 per year",
+    "startingPrice": 2160,
+    "planUrl": "https://www.royalsundaram.in"
+  },
+  {
+    "company": "Liberty General",
+    "cashlessGarages": 3100,
+    "claimSettlementRatio": 90,
+    "zeroDepClaims": "Unlimited",
+    "startingPrice": 2075,
+    "planUrl": "https://www.libertyinsurance.in"
+  },
+  {
+    "company": "Shriram General",
+    "cashlessGarages": 2000,
+    "claimSettlementRatio": 78,
+    "zeroDepClaims": "1 per year",
+    "startingPrice": 1980,
+    "planUrl": "https://www.shriramgi.com"
+  }
+]

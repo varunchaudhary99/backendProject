@@ -1,0 +1,304 @@
+{
+  "insuranceCompanies": [
+    {
+      "id": 1,
+      "name": "HDFC ERGO Car Insurance",
+      "cashlessGarages": 8000,
+      "claimsSettled": "100%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2881,
+      "features": [
+        "Maximum Cashless Garages",
+        "Overnight Vehicle Repairs",
+        "24x7 Roadside Assistance",
+        "Quick Claim Settlement"
+      ],
+      "photoUrl": "https://example.com/images/hdfc-ergo-logo.png"
+    },
+    {
+      "id": 2,
+      "name": "United India Car Insurance",
+      "cashlessGarages": 3100,
+      "claimsSettled": "95%",
+      "comprehensiveClaims": "Unlimited",
+      "startingPriceINR": 2396,
+      "features": [
+        "Towing Assistance (For Accidents)",
+        "Coverage Outside India",
+        "PSU Provider",
+        "Quick Claim Settlement"
+      ],
+      "photoUrl": "https://example.com/images/united-india-logo.png"
+    },
+    {
+      "id": 3,
+      "name": "TATA AIG Car Insurance",
+      "cashlessGarages": 7500,
+      "claimsSettled": "98%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2750,
+      "features": [
+        "Zero Depreciation Cover",
+        "Instant Policy Issuance",
+        "Roadside Assistance",
+        "Cashless Repairs"
+      ],
+      "photoUrl": "https://example.com/images/tata-aig-logo.png"
+    },
+    {
+      "id": 4,
+      "name": "Bajaj Allianz Car Insurance",
+      "cashlessGarages": 6500,
+      "claimsSettled": "97%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2699,
+      "features": [
+        "Add-on Covers",
+        "24/7 Support",
+        "Fast Claim Settlement",
+        "Garage Network"
+      ],
+      "photoUrl": "https://example.com/images/bajaj-allianz-logo.png"
+    },
+    {
+      "id": 5,
+      "name": "ICICI Lombard Car Insurance",
+      "cashlessGarages": 6200,
+      "claimsSettled": "99%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2800,
+      "features": [
+        "Digital Claims",
+        "Large Garage Network",
+        "Emergency Towing",
+        "Cashless Repairs"
+      ],
+      "photoUrl": "https://example.com/images/icici-lombard-logo.png"
+    },
+    {
+      "id": 6,
+      "name": "New India Assurance",
+      "cashlessGarages": 2900,
+      "claimsSettled": "92%",
+      "zeroDepClaims": "Limited",
+      "startingPriceINR": 2300,
+      "features": [
+        "PSU Provider",
+        "Long-Term Coverage",
+        "Budget Friendly",
+        "Wide Coverage Options"
+      ],
+      "photoUrl": "https://example.com/images/new-india-logo.png"
+    },
+    {
+      "id": 7,
+      "name": "Reliance General Car Insurance",
+      "cashlessGarages": 5800,
+      "claimsSettled": "93%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2450,
+      "features": [
+        "Self-Inspection",
+        "Instant Policy",
+        "Add-on Protection",
+        "Wide Garage Network"
+      ],
+      "photoUrl": "https://example.com/images/reliance-general-logo.png"
+    },
+    {
+      "id": 8,
+      "name": "SBI General Car Insurance",
+      "cashlessGarages": 5300,
+      "claimsSettled": "94%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2500,
+      "features": [
+        "PSU Provider",
+        "Affordable Premiums",
+        "Quick Online Renewal",
+        "Cashless Garages"
+      ],
+      "photoUrl": "https://example.com/images/sbi-general-logo.png"
+    },
+    {
+      "id": 9,
+      "name": "Digit Car Insurance",
+      "cashlessGarages": 6400,
+      "claimsSettled": "98%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2700,
+      "features": [
+        "Smartphone Self-Inspection",
+        "Quick Settlement",
+        "24x7 Support",
+        "Customizable Covers"
+      ],
+      "photoUrl": "https://example.com/images/digit-logo.png"
+    },
+    {
+      "id": 10,
+      "name": "ACKO Car Insurance",
+      "cashlessGarages": 5000,
+      "claimsSettled": "96%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2200,
+      "features": [
+        "Paperless Process",
+        "Low Premiums",
+        "Free Pickup & Drop",
+        "Instant Claim Settlement"
+      ],
+      "photoUrl": "https://example.com/images/acko-logo.png"
+    },
+    {
+      "id": 11,
+      "name": "Kotak Car Insurance",
+      "cashlessGarages": 4600,
+      "claimsSettled": "91%",
+      "zeroDepClaims": "Limited",
+      "startingPriceINR": 2400,
+      "features": [
+        "Custom Add-ons",
+        "Online Renewal",
+        "Wide Garage Coverage",
+        "24x7 Assistance"
+      ],
+      "photoUrl": "https://example.com/images/kotak-logo.png"
+    },
+    {
+      "id": 12,
+      "name": "IFFCO Tokio Car Insurance",
+      "cashlessGarages": 5800,
+      "claimsSettled": "95%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2600,
+      "features": [
+        "Network Garages",
+        "Affordable Add-ons",
+        "24x7 Claim Assistance",
+        "Paperless Policy"
+      ],
+      "photoUrl": "https://example.com/images/iffco-tokio-logo.png"
+    },
+    {
+      "id": 13,
+      "name": "Oriental Insurance",
+      "cashlessGarages": 3100,
+      "claimsSettled": "90%",
+      "zeroDepClaims": "Limited",
+      "startingPriceINR": 2350,
+      "features": [
+        "PSU Provider",
+        "Basic Coverage",
+        "Affordable Plans",
+        "Wide Acceptance"
+      ],
+      "photoUrl": "https://example.com/images/oriental-logo.png"
+    },
+    {
+      "id": 14,
+      "name": "Future Generali Car Insurance",
+      "cashlessGarages": 4900,
+      "claimsSettled": "94%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2550,
+      "features": [
+        "Instant Claim Processing",
+        "Customer Support",
+        "Online Discounts",
+        "Garage Locator"
+      ],
+      "photoUrl": "https://example.com/images/future-generali-logo.png"
+    },
+    {
+      "id": 15,
+      "name": "Liberty General Car Insurance",
+      "cashlessGarages": 4700,
+      "claimsSettled": "93%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2425,
+      "features": [
+        "Comprehensive Plans",
+        "Add-ons",
+        "Roadside Assistance",
+        "Paperless Process"
+      ],
+      "photoUrl": "https://example.com/images/liberty-general-logo.png"
+    },
+    {
+      "id": 16,
+      "name": "Magma HDI Car Insurance",
+      "cashlessGarages": 4200,
+      "claimsSettled": "91%",
+      "zeroDepClaims": "Limited",
+      "startingPriceINR": 2250,
+      "features": [
+        "Affordable Plans",
+        "Rural Reach",
+        "Good Support",
+        "Online Services"
+      ],
+      "photoUrl": "https://example.com/images/magma-hdi-logo.png"
+    },
+    {
+      "id": 17,
+      "name": "Cholamandalam MS Car Insurance",
+      "cashlessGarages": 4600,
+      "claimsSettled": "92%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2480,
+      "features": [
+        "Strong Network",
+        "Custom Plans",
+        "24x7 Helpdesk",
+        "Online Purchase"
+      ],
+      "photoUrl": "https://example.com/images/cholamandalam-logo.png"
+    },
+    {
+      "id": 18,
+      "name": "Royal Sundaram Car Insurance",
+      "cashlessGarages": 5100,
+      "claimsSettled": "95%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2600,
+      "features": [
+        "Seamless Claims",
+        "Digital Policy",
+        "Instant Coverage",
+        "Trusted Brand"
+      ],
+      "photoUrl": "https://example.com/images/royal-sundaram-logo.png"
+    },
+    {
+      "id": 19,
+      "name": "Shriram Car Insurance",
+      "cashlessGarages": 4300,
+      "claimsSettled": "90%",
+      "zeroDepClaims": "Limited",
+      "startingPriceINR": 2210,
+      "features": [
+        "Affordable Premiums",
+        "Rural Reach",
+        "Wide Network",
+        "24x7 Assistance"
+      ],
+      "photoUrl": "https://example.com/images/shriram-logo.png"
+    },
+    {
+      "id": 20,
+      "name": "Go Digit Car Insurance",
+      "cashlessGarages": 6300,
+      "claimsSettled": "98%",
+      "zeroDepClaims": "Unlimited",
+      "startingPriceINR": 2780,
+      "features": [
+        "Self-Video Claims",
+        "Fast Processing",
+        "Paperless Onboarding",
+        "No Hidden Charges"
+      ],
+      "photoUrl": "https://example.com/images/go-digit-logo.png"
+    }
+  ]
+}

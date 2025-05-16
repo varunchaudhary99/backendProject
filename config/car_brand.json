@@ -1,0 +1,144 @@
+{
+    "data": [
+      {
+        "_id": 1,
+        "make": "Maruti",
+        "make_id": 1,
+        "popularity_rank": 11000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Maruti.jpg"
+      },
+      {
+        "_id": 2,
+        "make": "Hyundai",
+        "make_id": 2,
+        "popularity_rank": 10000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Hyundai.jpg"
+      },
+      {
+        "_id": 3,
+        "make": "Tata",
+        "make_id": 3,
+        "popularity_rank": 9000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Tata.jpg"
+      },
+      {
+        "_id": 4,
+        "make": "Mahindra",
+        "make_id": 4,
+        "popularity_rank": 8000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Mahindra.jpg"
+      },
+      {
+        "_id": 5,
+        "make": "Honda",
+        "make_id": 5,
+        "popularity_rank": 7000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Honda.jpg"
+      },
+      {
+        "_id": 6,
+        "make": "Toyota",
+        "make_id": 6,
+        "popularity_rank": 6000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Toyota.jpg"
+      },
+      {
+        "_id": 7,
+        "make": "Renault",
+        "make_id": 7,
+        "popularity_rank": 5000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Renault.jpg"
+      },
+      {
+        "_id": 8,
+        "make": "Ford",
+        "make_id": 8,
+        "popularity_rank": 4000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Ford.jpg"
+      },
+      {
+        "_id": 9,
+        "make": "Volkswagen",
+        "make_id": 9,
+        "popularity_rank": 3000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Volkswagen.jpg"
+      },
+      {
+        "_id": 10,
+        "make": "Kia",
+        "make_id": 10,
+        "popularity_rank": 2000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Kia.jpg"
+      },
+      {
+        "_id": 11,
+        "make": "MG",
+        "make_id": 11,
+        "popularity_rank": 1000,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/MG.jpg"
+      },
+      {
+        "_id": 12,
+        "make": "Chevrolet",
+        "make_id": 12,
+        "popularity_rank": 900,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/chevrolet.jpg"
+      },
+      {
+        "_id": 13,
+        "make": "Skoda",
+        "make_id": 13,
+        "popularity_rank": 800,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Skoda.jpg"
+      },
+      {
+        "_id": 14,
+        "make": "Nissan",
+        "make_id": 14,
+        "popularity_rank": 700,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Nissan.jpg"
+      },
+      {
+        "_id": 15,
+        "make": "BMW",
+        "make_id": 15,
+        "popularity_rank": 600,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/BMW.jpg"
+      },
+      {
+        "_id": 16,
+        "make": "Datsun",
+        "make_id": 16,
+        "popularity_rank": 500,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Dastun.jpg"
+      },
+      {
+        "_id": 17,
+        "make": "Mercedes-Benz",
+        "make_id": 17,
+        "popularity_rank": 400,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Mercedes.jpg"
+      },
+      {
+        "_id": 18,
+        "make": "Fiat",
+        "make_id": 18,
+        "popularity_rank": 300,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Fiat.jpg"
+      },
+      {
+        "_id": 19,
+        "make": "Audi",
+        "make_id": 19,
+        "popularity_rank": 200,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Audi.jpg"
+      },
+      {
+        "_id": 20,
+        "make": "Land Rover",
+        "make_id": 20,
+        "popularity_rank": 42,
+        "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/fw/Land-Rover.jpg"
+      }
+    ]}
+      

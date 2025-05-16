@@ -1,0 +1,202 @@
+[
+  {
+    "company": "HDFC Ergo",
+    "planName": "Third Party Basic",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2094,
+    "planUrl": "https://www.hdfcergo.com"
+  },
+  {
+    "company": "ICICI Lombard",
+    "planName": "Third Party Standard",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2150,
+    "planUrl": "https://www.icicilombard.com"
+  },
+  {
+    "company": "TATA AIG",
+    "planName": "Third Party Lite",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2000,
+    "planUrl": "https://www.tataaig.com"
+  },
+  {
+    "company": "Bajaj Allianz",
+    "planName": "TP Secure",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2200,
+    "planUrl": "https://www.bajajallianz.com"
+  },
+  {
+    "company": "Reliance General",
+    "planName": "Third Party Smart",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2080,
+    "planUrl": "https://www.reliancegeneral.co.in"
+  },
+  {
+    "company": "SBI General",
+    "planName": "TP Cover",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2075,
+    "planUrl": "https://www.sbigeneral.in"
+  },
+  {
+    "company": "Oriental Insurance",
+    "planName": "Third Party Plus",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2100,
+    "planUrl": "https://www.orientalinsurance.org.in"
+  },
+  {
+    "company": "New India Assurance",
+    "planName": "NIA TP Basic",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2090,
+    "planUrl": "https://www.newindia.co.in"
+  },
+  {
+    "company": "Universal Sompo",
+    "planName": "Third Party Value",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2060,
+    "planUrl": "https://www.universalsompo.com"
+  },
+  {
+    "company": "Future Generali",
+    "planName": "FG TP Protect",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2120,
+    "planUrl": "https://www.futuregenerali.in"
+  },
+  {
+    "company": "Edelweiss General",
+    "planName": "Third Party Safe",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2045,
+    "planUrl": "https://www.edelweissinsurance.com"
+  },
+  {
+    "company": "Digit Insurance",
+    "planName": "Digit TP Secure",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2030,
+    "planUrl": "https://www.godigit.com"
+  },
+  {
+    "company": "Acko General",
+    "planName": "Acko TP Saver",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2025,
+    "planUrl": "https://www.acko.com"
+  },
+  {
+    "company": "Magma HDI",
+    "planName": "Third Party Shield",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2050,
+    "planUrl": "https://www.magmahdi.com"
+  },
+  {
+    "company": "Kotak General",
+    "planName": "Kotak TP Basic",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2099,
+    "planUrl": "https://www.kotakgeneralinsurance.com"
+  },
+  {
+    "company": "Liberty General",
+    "planName": "TP Classic",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2110,
+    "planUrl": "https://www.libertyinsurance.in"
+  },
+  {
+    "company": "IFFCO Tokio",
+    "planName": "TP Basic Plan",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2065,
+    "planUrl": "https://www.iffcotokio.co.in"
+  },
+  {
+    "company": "Royal Sundaram",
+    "planName": "TP Value Pack",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2130,
+    "planUrl": "https://www.royalsundaram.in"
+  },
+  {
+    "company": "Shriram General",
+    "planName": "Shriram Third Party",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2085,
+    "planUrl": "https://www.shriramgi.com"
+  },
+  {
+    "company": "National Insurance",
+    "planName": "TP Secure National",
+    "coverage": {
+      "thirdPartyPerson": true,
+      "thirdPartyProperty": true
+    },
+    "startingPrice": 2105,
+    "planUrl": "https://nationalinsurance.nic.co.in"
+  }
+]

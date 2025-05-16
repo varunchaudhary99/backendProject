@@ -1,0 +1,20 @@
+{
+    "data": {
+      "status": 200,
+      "message": "Success",
+      "cached": false,
+      "data": {
+        "firstName": "",
+        "lastName": "",
+        "gender": "",
+        "email": "",
+        "city": "",
+        "mobile": "",
+        "dob": "",
+        "isProfileData": 0
+      },
+      "requestTime": "",
+      "responseTime": "",
+      "timeTaken": "192ms"
+    }
+  }

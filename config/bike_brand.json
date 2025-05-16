@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "_id": 1,
+      "make": "Honda",
+      "make_id": 1,
+      "popularity_rank": 1000,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Honda.jpg"
+    },
+    {
+      "_id": 2,
+      "make": "Hero",
+      "make_id": 2,
+      "popularity_rank": 950,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Hero.jpg"
+    },
+    {
+      "_id": 3,
+      "make": "TVS",
+      "make_id": 3,
+      "popularity_rank": 850,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/TVS.jpg"
+    },
+    {
+      "_id": 4,
+      "make": "Hero Honda",
+      "make_id": 4,
+      "popularity_rank": 800,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Hero.jpg"
+    },
+    {
+      "_id": 5,
+      "make": "Bajaj",
+      "make_id": 5,
+      "popularity_rank": 775,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Bajaj.jpg"
+    },
+    {
+      "_id": 6,
+      "make": "Royal Enfield",
+      "make_id": 6,
+      "popularity_rank": 750,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Royal-Enfield.jpg"
+    },
+    {
+      "_id": 7,
+      "make": "Yamaha",
+      "make_id": 7,
+      "popularity_rank": 700,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Yamaha.jpg"
+    },
+    {
+      "_id": 8,
+      "make": "Suzuki",
+      "make_id": 8,
+      "popularity_rank": 650,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Suzuki.jpg"
+    },
+    {
+      "_id": 9,
+      "make": "KTM",
+      "make_id": 9,
+      "popularity_rank": 600,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/KTM.jpg"
+    },
+    {
+      "_id": 10,
+      "make": "Mahindra",
+      "make_id": 10,
+      "popularity_rank": 500,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Mahindra.jpg"
+    },
+    {
+      "_id": 11,
+      "make": "Triumph",
+      "make_id": 11,
+      "popularity_rank": 450,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Triumph.jpg"
+    },
+    {
+      "_id": 12,
+      "make": "Vespa",
+      "make_id": 12,
+      "popularity_rank": 400,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Vespa.jpg"
+    },
+    {
+      "_id": 13,
+      "make": "Aprilia",
+      "make_id": 13,
+      "popularity_rank": 350,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Aprilia.jpg"
+    },
+    {
+      "_id": 14,
+      "make": "Kawasaki",
+      "make_id": 14,
+      "popularity_rank": 250,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Kawasaki.jpg"
+    },
+    {
+      "_id": 15,
+      "make": "BMW",
+      "make_id": 15,
+      "popularity_rank": 200,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/BMW.jpg"
+    },
+    {
+      "_id": 16,
+      "make": "Ather",
+      "make_id": 16,
+      "popularity_rank": 150,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Ather.jpg"
+    },
+    {
+      "_id": 17,
+      "make": "AMO Electric",
+      "make_id": 17,
+      "popularity_rank": 50,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/AMO.jpg"
+    },
+    {
+      "_id": 18,
+      "make": "Aftek Motors",
+      "make_id": 18,
+      "popularity_rank": 50,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Aftek-Motor.jpg"
+    },
+    {
+      "_id": 19,
+      "make": "Ampere Electric",
+      "make_id": 19,
+      "popularity_rank": 50,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Ampere.jpg"
+    },
+    {
+      "_id": 20,
+      "make": "Avera",
+      "make_id": 20,
+      "popularity_rank": 50,
+      "make_logo_url": "https://ins-common-logos-prod.s3.ap-south-1.amazonaws.com/brokerage/logo/oem-logos/tw/Avera.jpg"
+    }
+  ]
+}
