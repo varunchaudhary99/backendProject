@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 let bikeBrandSchema = new mongoose.Schema({
-  _id: Number,
+  id: Number,
   make: {
     type: String,
     required: true,

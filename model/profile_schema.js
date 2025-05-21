@@ -6,7 +6,7 @@ const profileSchema = new mongoose.Schema({
   gender: { type: String, default: "" },
   email: { type: String, default: "" },
   city: { type: String, default: "" },
-  mobile: { type: String, required: true },
+  mobile: { type: String },
   dob: { type: String, default: "" },
   isProfileData: { type: Number, default: 0 }
 }, {

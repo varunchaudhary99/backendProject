@@ -1,8 +1,9 @@
 const User = require('../model/user_schema');
 const jwt = require('jsonwebtoken');
 const { generateOTP, saveOTP, verifyOTP: verifyUserOTP } = require('../utils/user_otp');
-const InsuranceItem = require('../model/insuranceItems');
 
+let AdminUser = require('../model/admin_user')
+ const bcrypt = require('bcrypt')
 // Send OTP
 const sendOTP = async (req, res) => {
  const { mobile } = req.body;
@@ -53,15 +54,77 @@ console.log('Logging out token:', req.token);
 };
 
 
-
-
-// Get Insurance Items
-const getInsuranceItems = async (req, res) => {
+const register = async (req, res) => {
   try {
-    const items = await InsuranceItem.find();
-    res.json(items);
+    const { name, email, password } = req.body;
+
+    // Validate input
+    if (!name || !email || !password) {
+      return res.status(400).json({ message: 'All fields are required' });
+    }
+
+    // Check if user already exists
+    const existingUser = await AdminUser.findOne({ email });
+    if (existingUser) {
+      return res.status(409).json({ message: 'User already exists' });
+    }
+
+    // Hash the password
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    // Create new user
+    const newUser = new AdminUser({
+      name,
+      email,
+      password: hashedPassword,
+    });
+
+    
+    const savedUser = await newUser.save();
+       res.json({ token });
+    res.status(201).json({ message: 'User registered successfully', user: savedUser });
   } catch (error) {
-    res.status(500).json({ error: 'Server error' });
+    console.error('Registration error:', error);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+const signToken = (payload) => {
+  return new Promise((resolve, reject) => {
+    jwt.sign(
+      payload,
+      process.env.JWT_SECRET ,
+      { expiresIn: '1h' },
+      (err, token) => {
+        if (err) reject(err);
+        else resolve(token);
+      }
+    );
+  });
+};
+let login = async (req, res) => {
+  try {
+    let { inp_email, inp_password } = req.body;
+  
+    let user = await AdminUser.findOne({email: inp_email.toLowerCase()});
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    let isValidPWD = await bcrypt.compare(inp_password, user.password);
+
+    if (!isValidPWD) {
+      return res.status(401).json({ message: 'Invalid password' });
+    }
+
+    let payload = { id: user.id };
+    let token = await signToken(payload); // Await the signed token
+
+    res.json({ token });
+      console.log('Generated token:', token);
+  } catch (error) {
+    console.error('Error in login:', error);
+    res.status(500).json({ message: 'Error logging in' });
   }
 };
 
@@ -99,5 +162,7 @@ module.exports = {
   sendOTP,
   verifyOTP,
   profileInfo,
-  verifyToken
+  verifyToken,
+  login,
+  register
 };

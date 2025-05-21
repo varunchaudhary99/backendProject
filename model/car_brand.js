@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 let carBrandSchema = new mongoose.Schema({
-  _id: Number, // Using provided _id as a number
+  id: Number, // Using provided _id as a number
   make: {
     type: String,
     required: true,

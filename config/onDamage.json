@@ -5,7 +5,7 @@
     "claimSettlementRatio": 89,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2202,
-    "planUrl": "https://www.hdfcergo.com"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/hdfc-ergo.jpg"
   },
   {
     "company": "ICICI Lombard",
@@ -13,7 +13,7 @@
     "claimSettlementRatio": 91,
     "zeroDepClaims": "5 per year",
     "startingPrice": 2250,
-    "planUrl": "https://www.icicilombard.com"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/icici-lombard.jpg"
   },
   {
     "company": "TATA AIG",
@@ -21,7 +21,8 @@
     "claimSettlementRatio": 88,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2180,
-    "planUrl": "https://www.tataaig.com"
+    "planUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHWco14jWReDDhV87KyLxeG7n_j7Pn7DVHsw&s"
+
   },
   {
     "company": "Bajaj Allianz",
@@ -29,7 +30,8 @@
     "claimSettlementRatio": 90,
     "zeroDepClaims": "3 per year",
     "startingPrice": 2300,
-    "planUrl": "https://www.bajajallianz.com"
+    "planUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnO-HTxCfhfU1RhR5HwuagvTtwISeQYK_SyQ&s"
+ 
   },
   {
     "company": "Reliance General",
@@ -37,7 +39,8 @@
     "claimSettlementRatio": 85,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2100,
-    "planUrl": "https://www.reliancegeneral.co.in"
+    "planUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Logo-reliance-general-insurance-1.png"
+ 
   },
   {
     "company": "SBI General",
@@ -45,7 +48,8 @@
     "claimSettlementRatio": 86,
     "zeroDepClaims": "2 per year",
     "startingPrice": 2150,
-    "planUrl": "https://www.sbigeneral.in"
+    "planUrl": "https://play-lh.googleusercontent.com/3jv7Zd1h0QaJU0IwmVy4XbP8djJxCygLiCZlPv69ivwca4v3XALaWmJo7yyzXjhKxA"
+ 
   },
   {
     "company": "Future Generali",
@@ -53,7 +57,8 @@
     "claimSettlementRatio": 87,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2090,
-    "planUrl": "https://www.futuregenerali.in"
+    "planUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpzamoXKya4LG4NLGYglhEQR10QUNNZsVNQ&s"
+ 
   },
   {
     "company": "Digit Insurance",
@@ -61,7 +66,7 @@
     "claimSettlementRatio": 89,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2020,
-    "planUrl": "https://www.godigit.com"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/digit.jpg"
   },
   {
     "company": "ACKO General",
@@ -69,7 +74,8 @@
     "claimSettlementRatio": 92,
     "zeroDepClaims": "5 per year",
     "startingPrice": 1999,
-    "planUrl": "https://www.acko.com"
+    "planUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0VkDRchCR3ofvB0849SPhHslN3_Q0V9voVw&s"
+  
   },
   {
     "company": "Edelweiss General",
@@ -77,7 +83,7 @@
     "claimSettlementRatio": 84,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2010,
-    "planUrl": "https://www.edelweissinsurance.com"
+    "planUrl": "https://cms-img.coverfox.com/Edelweiss-General-Insurance-1200x628.jpg"
   },
   {
     "company": "Magma HDI",
@@ -85,7 +91,8 @@
     "claimSettlementRatio": 83,
     "zeroDepClaims": "3 per year",
     "startingPrice": 2005,
-    "planUrl": "https://www.magmahdi.com"
+    "planUrl": "https://content3.jdmagicbox.com/v2/comp/palghar/b2/022pxx22.xx22.140505142740.l9b2/catalogue/magma-hdi-general-insurance-company-ltd-vasai-east-palghar-general-insurance-companies-v36hq.jpg"
+ 
   },
   {
     "company": "Kotak General",
@@ -93,7 +100,7 @@
     "claimSettlementRatio": 88,
     "zeroDepClaims": "4 per year",
     "startingPrice": 2145,
-    "planUrl": "https://www.kotakgeneralinsurance.com"
+    "planUrl":"https://www.financialexpress.com/wp-content/uploads/2024/12/kotak.X.jpg"
   },
   {
     "company": "Universal Sompo",
@@ -101,7 +108,8 @@
     "claimSettlementRatio": 82,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2080,
-    "planUrl": "https://www.universalsompo.com"
+    "planUrl": "https://content.jdmagicbox.com/comp/bhopal/z4/0755p7480.7480.110131210608.c3z4/catalogue/universal-sompo-general-insurance-co-ltd-arera-hills-bhopal-general-insurance-companies-9upwcjkdbi.jpg"
+ 
   },
   {
     "company": "Oriental Insurance",
@@ -109,7 +117,8 @@
     "claimSettlementRatio": 79,
     "zeroDepClaims": "1 per year",
     "startingPrice": 2130,
-    "planUrl": "https://www.orientalinsurance.org.in"
+    "planUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn9Xy2zj-3_RfQtcawo6bA3s-avmrCwAhJCA&s"
+   
   },
   {
     "company": "National Insurance",
@@ -117,7 +126,7 @@
     "claimSettlementRatio": 81,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2055,
-    "planUrl": "https://nationalinsurance.nic.co.in"
+    "planUrl": "https://cms-img.coverfox.com/national-insurance-company.jpg"
   },
   {
     "company": "New India Assurance",
@@ -125,7 +134,7 @@
     "claimSettlementRatio": 80,
     "zeroDepClaims": "2 per year",
     "startingPrice": 2190,
-    "planUrl": "https://www.newindia.co.in"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/new-india.jpg"
   },
   {
     "company": "IFFCO Tokio",
@@ -133,7 +142,7 @@
     "claimSettlementRatio": 86,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2125,
-    "planUrl": "https://www.iffcotokio.co.in"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/iffco-tokio.jpg"
   },
   {
     "company": "Royal Sundaram",
@@ -141,7 +150,7 @@
     "claimSettlementRatio": 87,
     "zeroDepClaims": "3 per year",
     "startingPrice": 2160,
-    "planUrl": "https://www.royalsundaram.in"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/royal-sundaram.jpg"
   },
   {
     "company": "Liberty General",
@@ -149,7 +158,7 @@
     "claimSettlementRatio": 90,
     "zeroDepClaims": "Unlimited",
     "startingPrice": 2075,
-    "planUrl": "https://www.libertyinsurance.in"
+    "planUrl": "https://staticimg.insurancedekho.com/seo/insurer/liberty.jpg"
   },
   {
     "company": "Shriram General",
@@ -157,6 +166,7 @@
     "claimSettlementRatio": 78,
     "zeroDepClaims": "1 per year",
     "startingPrice": 1980,
-    "planUrl": "https://www.shriramgi.com"
+    "planUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAXeG3GgDzCE-ALbdc00J29puqJG-xlkhwg&s"
+   
   }
 ]

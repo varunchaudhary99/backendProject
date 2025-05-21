@@ -1,38 +1,18 @@
 const mongoose = require('mongoose');
 
 const InsuranceCompanySchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  cashlessGarages: {
-    type: Number,
-    required: true
-  },
-  claimsSettled: {
-    type: String,
-    required: true
-  },
-  zeroDepClaims: {
-    type: String,
-    required: false
-  },
-  comprehensiveClaims: {
-    type: String,
-    required: false
-  },
-  startingPriceINR: {
-    type: Number,
-    required: true
-  },
-  features: {
+  id: Number,
+      name: String,
+      cashlessGarages: Number,
+      claimsSettled: String,
+      zeroDepClaims: String,
+      comprehensiveClaims:String,
+      startingPriceINR:String,
+     features: {
     type: [String],
-    required: true
   },
-  photoUrl: {
-    type: String,
-    required: true
+  photoUrl: String,
   }
-}, { timestamps: true });
+  );
 
 module.exports = mongoose.model('InsuranceCompany', InsuranceCompanySchema);
