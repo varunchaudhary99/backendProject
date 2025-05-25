@@ -19,7 +19,7 @@ let connectDB = async () => {
     try{
         await mongoose.connect(process.env.MONGO_URL)
          console.log("Database Succcessfully connected")
-         await InsuranceComapny.create(homeItemJson)
+        // await InsuranceComapny.create(homeItemJson)
          await profileInfo.create(profileJson)
          await CarBrand.create(carBrandJson)
          await BikeBrand.create(bikeBrandJson)

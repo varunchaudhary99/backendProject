@@ -1,9 +1,9 @@
 const User = require('../model/user_schema');
 const jwt = require('jsonwebtoken');
 const { generateOTP, saveOTP, verifyOTP: verifyUserOTP } = require('../utils/user_otp');
-
-let AdminUser = require('../model/admin_user')
+const AdminUser = require('../model/admin_user')
  const bcrypt = require('bcrypt')
+ require('dotenv').config();
 // Send OTP
 const sendOTP = async (req, res) => {
  const { mobile } = req.body;
@@ -40,17 +40,26 @@ const verifyToken = (req, res, next) => {
   const authHeader = req.headers['authorization'];
   if (!authHeader) return res.status(401).json({ error: 'No token provided' });
 
-  const token = authHeader.split(' ')[1]; 
+  const token = authHeader.split(' ')[1];
   if (!token) return res.status(401).json({ error: 'Invalid token' });
 
-  
-console.log('Logging out token:', req.token);
-  
-  
-  res.status(200).json({ message: 'Logged out successfully' });
   req.token = token;
+  next(); 
+};
+const signToken = (payload) => {
+  const secret = process.env.JWT_SECRET || 'fallbackSecretKey';
 
-  next();
+  return new Promise((resolve, reject) => {
+    jwt.sign(
+      payload,
+      secret,
+      { expiresIn: '1h' },
+      (err, token) => {
+        if (err) reject(err);
+        else resolve(token);
+      }
+    );
+  });
 };
 
 
@@ -79,45 +88,36 @@ const register = async (req, res) => {
       password: hashedPassword,
     });
 
-    
     const savedUser = await newUser.save();
-       res.json({ token });
-    res.status(201).json({ message: 'User registered successfully', user: savedUser });
+
+    
+    const token = await signToken({ userId: savedUser._id });
+
+    
+    res.status(201).json({ message: 'User registered successfully', user: savedUser, token });
   } catch (error) {
     console.error('Registration error:', error);
     res.status(500).json({ message: 'Server error' });
   }
 };
-const signToken = (payload) => {
-  return new Promise((resolve, reject) => {
-    jwt.sign(
-      payload,
-      process.env.JWT_SECRET ,
-      { expiresIn: '1h' },
-      (err, token) => {
-        if (err) reject(err);
-        else resolve(token);
-      }
-    );
-  });
-};
-let login = async (req, res) => {
+
+const login = async (req, res) => {
   try {
     let { inp_email, inp_password } = req.body;
   
-    let user = await AdminUser.findOne({email: inp_email.toLowerCase()});
+    let admin_user = await AdminUser.findOne({email: inp_email.toLowerCase()});
 
-    if (!user) {
+    if (!admin_user) {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    let isValidPWD = await bcrypt.compare(inp_password, user.password);
+    let isValidPWD = await bcrypt.compare(inp_password, admin_user.password);
 
     if (!isValidPWD) {
       return res.status(401).json({ message: 'Invalid password' });
     }
 
-    let payload = { id: user.id };
+    let payload = { id: admin_user.id };
     let token = await signToken(payload); // Await the signed token
 
     res.json({ token });

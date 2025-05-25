@@ -33,27 +33,38 @@ createCompany = async (req, res) => {
 };
 
 
-updateCompany = async (req, res) => {
+ updateCompany = async (req, res) => {
   try {
-    const updated = await InsuranceCompany.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!updated) return res.status(404).json({ message: 'Company not found' });
-    res.status(200).json(updated);
+    const updatedCompany = await InsuranceCompany.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true, runValidators: true } // return updated doc and run schema validators
+    );
+
+    if (!updatedCompany) {
+      return res.status(404).json({ message: 'Company not found' });
+    }
+
+    res.status(200).json(updatedCompany);
   } catch (err) {
+    console.error('Update error:', err.message);
     res.status(400).json({ error: err.message });
   }
 };
 
-
-deleteCompany = async (req, res) => {
+const deleteCompany = async (req, res) => {
   try {
-    const deleted = await InsuranceCompany.findByIdAndDelete(req.params.id);
-    if (!deleted) return res.status(404).json({ message: 'Company not found' });
-    res.status(200).json({ message: 'Company deleted successfully' });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+    const id = req.params.id; // assuming you're using req.params.id
+    const company = await InsuranceCompany.findByIdAndDelete(id);
+    if (!company) {
+      return res.status(404).json({ message: "Company not found" });
+    }
+    res.status(200).json({ message: "Company deleted successfully" });
+  } catch (error) {
+    console.error("Error deleting company:", error);
+    res.status(500).json({ message: "Internal server error" });
   }
 };
-
 
 module.exports = {
   getAllCompanies,
